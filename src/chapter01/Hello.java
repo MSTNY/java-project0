@@ -1,4 +1,4 @@
-package com.ms;
+package chapter01;
 
 public class Hello {
 }
