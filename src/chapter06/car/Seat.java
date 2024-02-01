@@ -1,4 +1,4 @@
-package chapter05.car;
+package chapter06.car;
 
 public class Seat {
     String type;
