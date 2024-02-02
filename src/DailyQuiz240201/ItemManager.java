@@ -6,7 +6,8 @@ public class ItemManager {
         Movie movie = new Movie(1, "movie_1", 6000, "director_1", "actor_1");
         Book book = new Book(1, "book_1", 7000, "author_1", "000-000-000-000");
 
-        System.out.println(album.id + ", " + album.name + ", " + album.price + ", " + album.artist);
+        album.print();
+        movie.print();
 
     }
 }

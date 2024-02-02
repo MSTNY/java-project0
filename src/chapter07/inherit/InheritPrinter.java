@@ -6,5 +6,7 @@ public class InheritPrinter {
         motorcycle.speed = 0;
         motorcycle.stop = true;
         motorcycle.print();
+
+        Vehicle vehicle = new Motorcycle();
     }
 }

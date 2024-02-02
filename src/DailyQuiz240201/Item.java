@@ -10,4 +10,13 @@ public class Item {
         this.name = name;
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%d, %s, %d",id, name, price);
+    }
+
+    void print() {
+        System.out.println(this.toString());
+    }
 }

@@ -9,4 +9,10 @@ public class Movie extends  Item {
         this.director = director;
         this.actor = actor;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%d, %s, %d, %s, %s",id, name, price, director, actor);
+    }
+
 }
