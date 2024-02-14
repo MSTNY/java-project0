@@ -1,8 +1,6 @@
-package chapter10;
+package DailyQuiz240214;
 
-import java.util.Scanner;
-
-public class Box<T> {
+public class Container<T> {
     private T t;
 
     public T get() {
